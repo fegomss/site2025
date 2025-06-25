@@ -1,0 +1,97 @@
+/* ...existing code... */
+body{
+    background-color: white
+}
+
+.títulos{
+    display: block;
+    color: rgb(0, 4, 255);
+    margin: 30px;
+    text-align: center;
+    font-size: 50px;
+    font-family: Georgia;
+    margin-bottom: 10px;
+    
+}
+
+.titulos2{
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    font-size: 30px;
+    font-family: Georgia;
+    margin-bottom: 1px;
+    margin-left: 1px;
+    width: 100%;
+}
+
+.parágrafo{
+    display: block;
+    text-align: center;
+    font-size: 15px;
+    font-family: Arial;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.redesocial{
+    display: block;
+    text-align: left;
+    font-size: 25px;
+    font-family: Arial;
+    color: black;
+    margin-bottom: 10px;
+    
+}
+
+.textos{
+    display: block;
+    text-align: left;
+    max-width: 50%;
+    font-size: 22px;
+    margin: 0;
+    font-family: Arial;
+    color: black;
+    margin-bottom: 10px;
+    max-width: 100%;
+    margin-left: 80px;
+}
+
+.fotodeperfil{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.spiderman{
+    display: block;
+    justify-content: right;
+    width: 500px; 
+    height: auto;
+    border-radius: 10px;
+    max-width: 100%;
+    
+}
+
+.container-texto-imagem{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 300px;
+}
+
+.icone-instagram{
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+}
+
+.instagram{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
