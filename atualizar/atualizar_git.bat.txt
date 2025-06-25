@@ -1,4 +1,3 @@
-@echo off
 cd "C:\Users\Administrador\Documents\PROJETOS\site"
 git add .
 git commit -m "Atualização automática"
