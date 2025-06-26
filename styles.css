@@ -1,15 +1,14 @@
-/* ...existing code... */
 body{
     background-color: white
 }
 
 .títulos{
     display: block;
-    color: rgb(0, 4, 255);
+    color: #fd0202;
     margin: 30px;
     text-align: center;
     font-size: 50px;
-    font-family: Georgia;
+    font-family:'Courier New', Courier, monospace;
     margin-bottom: 10px;
     
 }
@@ -17,31 +16,22 @@ body{
 .titulos2{
     display: block;
     color: rgb(0, 0, 0);
-    text-align: left;
+    text-align: center;
     font-size: 30px;
     font-family: Georgia;
     margin-bottom: 1px;
-    margin-left: 1px;
     width: 100%;
+    margin-top: 10%;
 }
 
 .parágrafo{
     display: block;
+    justify-content: center;
     text-align: center;
     font-size: 15px;
     font-family: Arial;
     color: black;
-    margin-bottom: 10px;
-}
-
-.redesocial{
-    display: block;
-    text-align: left;
-    font-size: 25px;
-    font-family: Arial;
-    color: black;
-    margin-bottom: 10px;
-    
+    margin-bottom: 1px;
 }
 
 .textos{
@@ -84,14 +74,24 @@ body{
     gap: 300px;
 }
 
-.icone-instagram{
-    width: 100px;
-    height: 100px;
-    margin-right: 10px;
+.container-redes-sociais img{
+    display: block;
+    align-items: center;
+    justify-content: center;
 }
-
-.instagram{
+    
+.insta{
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 100px;
+    margin-left: 48%;
+}
+
+.git{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    margin-left: 49%;
 }
